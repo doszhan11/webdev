@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Recipe Book</title>
+        <meta charset="utf-8">
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                background-color: #f4f4f4;
+                margin: 0;
+                padding: 0;
+                color: #333;
+            }
+
+            h1 {
+                text-align: center;
+                background-color: #ffcc00;
+                color: white;
+                padding: 20px;
+                margin: 0;
+            }
+
+            h2 {
+                color: #ff6600;
+            }
+
+            ol {
+                list-style-type: none;
+                padding: 0;
+            }
+
+            ol li {
+                margin: 10px 0;
+            }
+
+            a {
+                text-decoration: none;
+                color: #ff6600;
+            }
+
+            a:hover {
+                text-decoration: underline;
+            }
+
+            table {
+                width: 100%;
+                margin: 20px 0;
+                border-collapse: collapse;
+            }
+
+            th, td {
+                padding: 10px;
+                text-align: left;
+                border: 1px solid #ddd;
+            }
+
+            th {
+                background-color: #ffcc00;
+            }
+
+            ul {
+                list-style-type: none;
+                padding: 0;
+            }
+
+            p {
+                line-height: 1.6;
+            }
+
+            .recipe-container {
+                padding: 20px;
+                background-color: white;
+                margin: 20px;
+                border-radius: 8px;
+                box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            }
+
+        </style>
+    </head>
+    <body>
+       
+        <h1>My Recipe Book</h1>
+        
+        <h2>Contents:</h2>
+        <ol>
+            <li><a href="#recipe1">Chocolate Cake</a></li>
+            <li><a href="#recipe2">Spaghetti Bolognese</a></li>
+            <li><a href="#recipe3">Caesar Salad</a></li>
+        </ol>
+
+        <div class="recipe-container" id="recipe1">
+            <h2>Chocolate Cake</h2>
+            <ul>
+                <li>Time: 45 minutes</li>
+                <li>Serves: 8</li>
+            </ul>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Ingredients</th>
+                        <th>Quantity</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Flour</td>
+                        <td>2 cups</td>
+                    </tr>
+                    <tr>
+                        <td>Sugar</td>
+                        <td>1.5 cups</td>
+                    </tr>
+                    <tr>
+                        <td>Cocoa powder</td>
+                        <td>0.5 cup</td>
+                    </tr>
+                    <tr>
+                        <td>Baking powder</td>
+                        <td>1 tsp</td>
+                    </tr>
+                    <tr>
+                        <td>Eggs</td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <td>Milk</td>
+                        <td>1 cup</td>
+                    </tr>
+                </tbody>
+            </table>
+            <p><strong>Step 1:</strong> Preheat oven to 350°F (175°C). Grease a cake pan.</p>
+            <p><strong>Step 2:</strong> Mix all dry ingredients in a large bowl. Add wet ingredients and stir until smooth.</p>
+            <p><strong>Step 3:</strong> Pour the batter into the pan and bake for 30-35 minutes.</p>
+            <p><em>Source: <a href="https://www.allrecipes.com/recipe/17481/chocolate-cake-i/" target="_blank">AllRecipes</a></em></p>
+        </div>
+
+        <div class="recipe-container" id="recipe2">
+            <h2>Spaghetti Bolognese</h2>
+            <ul>
+                <li>Time: 1 hour</li>
+                <li>Serves: 4</li>
+            </ul>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Ingredients</th>
+                        <th>Quantity</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Spaghetti</td>
+                        <td>400g</td>
+                    </tr>
+                    <tr>
+                        <td>Ground beef</td>
+                        <td>250g</td>
+                    </tr>
+                    <tr>
+                        <td>Tomato sauce</td>
+                        <td>2 cups</td>
+                    </tr>
+                    <tr>
+                        <td>Onion</td>
+                        <td>1</td>
+                    </tr>
+                    <tr>
+                        <td>Garlic</td>
+                        <td>2 cloves</td>
+                    </tr>
+                </tbody>
+            </table>
+            <p><strong>Step 1:</strong> Cook spaghetti according to package instructions.</p>
+            <p><strong>Step 2:</strong> In a pan, cook ground beef with onions and garlic until browned.</p>
+            <p><strong>Step 3:</strong> Add tomato sauce and simmer for 20 minutes.</p>
+            <p><em>Source: <a href="https://www.bbcgoodfood.com/recipes/spaghetti-bolognese" target="_blank">BBC Good Food</a></em></p>
+        </div>
+
+        <div class="recipe-container" id="recipe3">
+            <h2>Caesar Salad</h2>
+            <ul>
+                <li>Time: 15 minutes</li>
+                <li>Serves: 2</li>
+            </ul>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Ingredients</th>
+                        <th>Quantity</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Romaine lettuce</td>
+                        <td>1 head</td>
+                    </tr>
+                    <tr>
+                        <td>Croutons</td>
+                        <td>1 cup</td>
+                    </tr>
+                    <tr>
+                        <td>Parmesan cheese</td>
+                        <td>0.5 cup</td>
+                    </tr>
+                    <tr>
+                        <td>Caesar dressing</td>
+                        <td>3 tbsp</td>
+                    </tr>
+                </tbody>
+            </table>
+            <p><strong>Step 1:</strong> Tear the lettuce into bite-sized pieces and place in a large bowl.</p>
+            <p><strong>Step 2:</strong> Add croutons, cheese, and Caesar dressing. Toss to combine.</p>
+            <p><em>Source: <a href="https://www.delish.com/cooking/recipe-ideas/a19885304/classic-caesar-salad-recipe/" target="_blank">Delish</a></em></p>
+        </div>
+
+    </body>
+</html>
