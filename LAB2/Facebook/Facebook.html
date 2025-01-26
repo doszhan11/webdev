@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f0f2f5;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+            width: 360px;
+            text-align: center;
+        }
+
+        .container h1 {
+            color: #1877f2;
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        .container h2 {
+            font-size: 20px;
+            color: #1c1e21;
+            margin-bottom: 20px;
+        }
+
+        .container input {
+            width: 100%;
+            margin-bottom: 10px;
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #dddfe2;
+            border-radius: 5px;
+        }
+
+        .container button {
+            width: 100%;
+            background-color: #1877f2;
+            color: #fff;
+            border: none;
+            padding: 10px;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .container button:hover {
+            background-color: #165db6;
+        }
+
+        .container .link {
+            margin-top: 10px;
+            text-align: center;
+            font-size: 14px;
+        }
+
+        .container .link a {
+            color: #1877f2;
+            text-decoration: none;
+        }
+
+        .container .link a:hover {
+            text-decoration: underline;
+        }
+
+        .divider {
+            display: flex;
+            align-items: center;
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .divider::before,
+        .divider::after {
+            content: "";
+            flex: 1;
+            border-bottom: 1px solid #dddfe2;
+        }
+
+        .divider::before {
+            margin-right: 10px;
+        }
+
+        .divider::after {
+            margin-left: 10px;
+        }
+
+        .create-account {
+            background-color: #42b72a;
+            color: #fff;
+            font-weight: bold;
+        }
+
+        .create-account:hover {
+            background-color: #36a420;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>facebook</h1>
+        <h2>Вход на Facebook</h2>
+        <form>
+            <input type="text" placeholder="Электронный адрес или номер телефона">
+            <input type="password" placeholder="Пароль">
+            <button type="submit">Вход</button>
+            <div class="link">
+                <a href="#">Забыли аккаунт?</a>
+            </div>
+            <div class="divider">или</div>
+            <button type="button" class="create-account">Создать новый аккаунт</button>
+        </form>
+    </div>
+</body>
+</html>
